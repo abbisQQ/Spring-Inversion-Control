@@ -1,0 +1,21 @@
+package com.luv2code.springdemo;
+
+public class TrackCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOut() {
+		
+		return "Run 5 miles";
+	}
+
+}
+
+//Added the interface here cause its really a simple example not much to see here.
+
+package com.luv2code.springdemo;
+
+public interface Coach {
+
+	public String getDailyWorkOut();
+	
+}
